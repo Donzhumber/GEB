@@ -107,7 +107,7 @@ This supplement provides the complete technical documentation of the simulation 
 The live execution of the Streamlit application \pyfile{app\_DL.py} is hosted at:\\
 \url{https://y5ss6jtuccvpbdvuy7kdgl.streamlit.app/}\\
 where a dedicated ``Readme'' tab provides user instructions. Alternatively, the application can be run locally on both macOS and Windows systems using double-clickable launcher shortcuts; instructions for local setups are detailed in the \texttt{README.md} file in the root of the application folder. The complete research repository, including code, simulation files, and data calibration scripts, is available at the public GitHub repository:\\
-\url{https://github.com/Donzhumber/JET.git}\\
+\url{https://github.com/Donzhumber/GEB.git}\\
 This document outlines the application design.
 
 Solving the dynamic mechanism's backward induction recursively is computationally prohibitive due to the need to recalculate expected continuation values. To resolve this, the model employs a value approximator based on a Multilayer Perceptron (MLP), trained in two independent instances: one approximating the continuation value that feeds the state's optimization (\pyfile{captor\_value\_net\_T10.pt}), and the other approximating the kidnapper's optimal response under its true type (\pyfile{captor\_true\_type\_value\_net\_T10.pt}).

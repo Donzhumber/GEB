@@ -32,7 +32,7 @@ This folder contains the complete Stata replication package for the microeconome
 1. Open Stata.
 2. Set the working directory to this `scripts/` directory:
    ```stata
-   cd "/path/to/appendix_A_micro/scripts"
+   cd "/path/to/appendix_A/scripts"
    ```
 3. Run the master script:
    ```stata

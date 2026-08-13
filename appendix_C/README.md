@@ -42,7 +42,7 @@ Make sure you have **Python 3.9** or higher installed.
 
 1. **Open your terminal or command prompt and navigate to this folder:**
    ```bash
-   cd Appendix_C_Streamlit
+   cd appendix_C
    ```
 
 2. **Set up a virtual environment (Recommended):**

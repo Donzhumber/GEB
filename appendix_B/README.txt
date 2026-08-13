@@ -1,10 +1,10 @@
 ==============================================================================
-Lean 4 Replication Guide for JET Supplement (Appendix B)
+Lean 4 Replication Guide for GEB Supplement (Appendix B)
 ==============================================================================
 
 This directory contains the replication package for the formal proofs and Lean
 verification of the paper:
-"Identifying Rational Types in Unknown Environments" (JET).
+"Identifying Rational Types in Unknown Environments" (GEB).
 
 The folder structure is:
 - Appendix_B_Proofs.tex : The LaTeX source file for the Appendix.
